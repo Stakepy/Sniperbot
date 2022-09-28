@@ -1,14 +1,5 @@
 import telebot
-import sys
-import os
-import time
 from telebot import types
-
-def restart():
-    print("argv: " , sys.argv)
-    print("sys.executable: " , sys.executable)
-    print("restart now!")
-    os.execv(sys.executable, ['python'] + sys.argv)
 
 bot = telebot.TeleBot('5776260408:AAGy2cbKqrtJuqR3zW_g8d_k1vi7DWZMQ0Y')
 
